@@ -1,0 +1,23 @@
+*,html,body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dt,dd,li,form,input,fieldset,table,tr,td,img,a{
+	padding:0;margin:0;
+}
+header,section,nav,footer{
+	display: block;
+}
+ul,ol,li{
+	list-style:none;
+}
+img{
+	border:0;
+	display:block;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+h1,h2,h3,h4,h5,h6,strong,b{
+	font-weight:100;
+}
+em,i{
+	font-style:normal;
+}

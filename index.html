@@ -1,12 +1,109 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>我要成为酷酷的人</title>
-	</head>
-	<body>
-        <h1>
-            我要成为酷酷的人！
-        </h1>
-	</body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我要成为酷酷的人</title>
+	<link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+	<div class="wrapper">
+		<section class="container">
+			<section class="section">
+				<article class="pull-left article">
+					<h1>企业实时销售数据</h1>
+					<p><span class="glyphicon glyphicon-time"></span><b id="time"></b></p>
+					<div class="map">
+						<h2><span class="glyphicon glyphicon-hand-down"></span>销售总额</h2>
+						<p>
+							<label class="pull-left">
+								<span>同比增长</span>
+								<b><i>+</i><em>48%</em></b>
+							</label>
+							<label class="pull-right">
+								<b class="b_b">1</b>
+								<b class="b_b">0</b>
+								<b class="b_n">,</b>
+								<b class="b_b">0</b>
+								<b class="b_b">0</b>
+								<b class="b_b">1</b>
+								<b class="b_n">,</b>
+								<b class="b_b">2</b>
+								<b class="b_b">5</b>
+								<b class="b_b">6</b>
+								<b class="b_t">元</b>
+							</label>
+						</p>
+						<div id="map"></div>
+					</div>
+				</article>
+				<article class="pull-right article">
+					<div class="content-1 content_small pull-left">
+						<h4>一季度销售季度</h4>
+						<div class="content_box">
+							<div id="map_1" class="circle map_list"></div>
+							<p class="map_1_p">一季度销售额<b>28</b>万</p>
+							<p class="map_1_p">同比增长<i>+</i><b>34%</b></p>
+						</div>
+					</div>
+					<div class="content-2 content_small pull-left">
+						<h4>品牌销售额占比</h4>
+						<div class="content_box">
+							<p>销售进度<b class="pull-right">5%</b></p>
+							<div id="map_2" class="map_list"></div>
+							<ul>
+								<li>
+									<span class="img-circle circle_1"></span>
+									<span><b>39%</b><i>数码类</i></span>
+								</li>
+								<li>
+									<span class="img-circle circle_2"></span>
+									<span><b>31%</b><i>快消类</i></span>
+								</li>
+								<li>
+									<span class="img-circle circle_3"></span>
+									<span><b>17%</b><i>日用类</i></span>
+								</li>
+								<li>
+									<span class="img-circle circle_4"></span>
+									<span><b>13%</b><i>食品类</i></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="content-3 content_small pull-left">
+						<h4>销售品牌排名</h4>
+						<div class="content_box">
+							<div id="map_3" class="map_list"></div>
+						</div>
+					</div>
+					<div class="content-4 content_small pull-left">
+						<h4>城市销售额排名</h4>
+						<div class="content_box">
+							<div id="map_4" class="map_list"></div>
+						</div>
+					</div>
+					<div class="content-5 content_small pull-left">
+						<h4>数码品牌分布</h4>
+						<div class="content_box">
+							<div id="map_5" class="map_list"></div>
+						</div>
+					</div>
+					<div class="content-6 content_small pull-left">
+						<h4>核心城市销售增长额</h4>
+						<div class="content_box">
+							<div id="map_6" class="map_list"></div>
+						</div>
+					</div>
+				</article>
+			</section>
+		</section>	
+	</div>
+	<script src="js/time.js"></script>
+	<script src="js/echarts.min.js"></script>
+	<script src="js/china.js"></script>
+	<script src="js/index.js"></script>
+</body>
 </html>
